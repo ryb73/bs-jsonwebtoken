@@ -1,7 +1,7 @@
 {
-    "name" : "bs-jsonwebtoken",
-    "sources" : [
-        { "dir" : "src" },
+    "name": "@ryb73/bs-jsonwebtoken",
+    "sources": [
+        { "dir": "src" },
         {
             "dir": "test",
             "type": "dev"

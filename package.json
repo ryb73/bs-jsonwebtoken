@@ -1,5 +1,5 @@
 {
-  "name": "bs-jsonwebtoken",
+  "name": "@ryb73/bs-jsonwebtoken",
   "version": "0.0.1",
   "description": "Bucklescript bindings for jsonwebtoken",
   "main": "index.js",
@@ -10,6 +10,10 @@
     "clean": "rm -rf lib && bsb -clean-world",
     "postinstall": "[ ! -f package-links.json ] || ppl link-file"
   },
+  "files": [
+    "/bsconfig.json",
+    "/src"
+  ],
   "keywords": [
     "bucklescript",
     "reason",
