@@ -30,7 +30,7 @@
   "peerDependencies": {
     "bs-platform": "^4.0.0"
   },
-  "devDependencies": {
+  "dependencies": {
     "jsonwebtoken": "^8.3.0"
   }
 }
