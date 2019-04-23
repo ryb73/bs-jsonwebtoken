@@ -29,9 +29,9 @@
     "url": "git@github.com:ryb73/bs-jsonwebtoken.git"
   },
   "peerDependencies": {
-    "bs-platform": "^4.0.0"
+    "bs-platform": "^5.0.0"
   },
   "dependencies": {
-    "jsonwebtoken": "^8.3.0"
+    "jsonwebtoken": "^8.5.1"
   }
 }
