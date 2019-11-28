@@ -8,5 +8,8 @@
         }
     ],
     "refmt": 3,
-    "bsc-flags": [ "-w -10", "-bs-super-errors" ]
+    "warnings": {
+        "number": "+A"
+    },
+    "bsc-flags": [ "-bs-super-errors" ]
 }

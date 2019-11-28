@@ -12,8 +12,7 @@
   },
   "files": [
     "/bsconfig.json",
-    "/src",
-    "/lib/js/src"
+    "/src"
   ],
   "keywords": [
     "bucklescript",
@@ -29,9 +28,12 @@
     "url": "git@github.com:ryb73/bs-jsonwebtoken.git"
   },
   "peerDependencies": {
-    "bs-platform": "^5.0.0"
+    "bs-platform": "^5.0.0 || ^6.0.0"
   },
   "dependencies": {
     "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {
+    "bs-platform": "^6.0.0"
   }
 }
