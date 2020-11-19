@@ -7,8 +7,7 @@
     "test": "echo \"Warning: no test specified\"",
     "build": "npm run clean && bsb -make-world",
     "watch": "npm run clean && bsb -make-world -w",
-    "clean": "rm -rf lib && bsb -clean-world",
-    "postinstall": "[ ! -f package-links.json ] || ppl link-file"
+    "clean": "rm -rf lib && bsb -clean-world"
   },
   "files": [
     "/bsconfig.json",
@@ -28,12 +27,12 @@
     "url": "git@github.com:ryb73/bs-jsonwebtoken.git"
   },
   "peerDependencies": {
-    "bs-platform": "^5.0.0 || ^6.0.0"
+    "bs-platform": "5 || 6 || 7 || 8"
   },
   "dependencies": {
     "jsonwebtoken": "^8.5.1"
   },
   "devDependencies": {
-    "bs-platform": "^6.0.0"
+    "bs-platform": "8"
   }
 }
