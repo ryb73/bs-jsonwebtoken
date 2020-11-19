@@ -1,6 +1,6 @@
 {
   "name": "@ryb73/bs-jsonwebtoken",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Bucklescript bindings for jsonwebtoken",
   "main": "index.js",
   "scripts": {
